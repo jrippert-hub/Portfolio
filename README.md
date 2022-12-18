@@ -15,3 +15,6 @@ Coursework Completed:
 * Research Design and Applications for Data and Analysis
 * Statistics
 * Data Engineering
+
+
+<a href="https://www.linkedin.com/in/julianrippert/">LinkedIn</a>
