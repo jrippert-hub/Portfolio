@@ -1,26 +1,36 @@
-transformers
-SerpAPIWrapper
-qdrant-client
-google-search-results
-datasets
-serpapi
-tiktoken
-loralib
-pypdf
-sentencepiece
-bitsandbytes
-accelerate
-einops
-faiss-gpu
-chromadb
-bs4
-langchainhub
-wikipedia
-arxiv
-pymupdf
-openai
-xmltodict
-langchain
-langchain_openai
-langchain_community
-protobuf
+# transformers
+# SerpAPIWrapper
+# qdrant-client
+# google-search-results
+# datasets
+# serpapi
+# tiktoken
+# loralib
+# pypdf
+# sentencepiece
+# bitsandbytes
+# accelerate
+# einops
+# faiss-gpu
+# chromadb
+# bs4
+# langchainhub
+# wikipedia
+# arxiv
+# pymupdf
+# openai
+# xmltodict
+# langchain
+# langchain_openai
+# langchain_community
+# protobuf
+
+# File: requirements.txt
+langchain==0.0.184
+openai==0.27.0
+qdrant-client==1.1.1
+serpapi==0.1.3
+spacy==3.5.0
+nltk==3.8.1
+ipywidgets==8.0.4
+PyPDF2==3.0.1
