@@ -25,13 +25,14 @@ Buff RAG is a Retrieval-Augmented Generation (RAG) system that combines the powe
 
 2. Install the required packages:
    ```
-   pip install -r requirements.txt
+   pip install -r requirements-txt.txt
    ```
 
-3. Create a `.env` file in the project root directory with your API keys:
+3. Create secret Colab keys for your OpenAI and SerpAPI keys:
    ```
-   OPENAI_API_KEY=your_openai_api_key_here
-   SERPAPI_API_KEY=your_serpapi_api_key_here
+   from google.colab import userdata
+   openai_api_key = userdata.get('OPENAI_API_KEY')
+   serpapi_api_key = userdata.get('SERP_API_KEY')
    ```
 
 ## Usage
